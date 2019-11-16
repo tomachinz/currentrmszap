@@ -55,7 +55,7 @@ typings/
 .yarn-integrity
 
 # environment variables file
-#.env
+.env
 .environment
 
 # next.js build output
