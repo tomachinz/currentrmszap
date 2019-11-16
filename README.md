@@ -3,7 +3,7 @@ Current-RMS Zap connects this rental management web app talk to the Zapier code-
 
 # Current-RMS Zap
 
-Current-RMS is a commercial Rental Management System great for company that rents out equipment.  
+Current-RMS https://current-rms.com/ is a commercial Rental Management System great for company that rents out equipment.  
 Since Current-RMS didn't have a Zap at the time, I decided to make this one!
 The "Zap" connects the rental CRM to the awesome Zapier code-free web API automation system.
 
