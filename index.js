@@ -2,6 +2,7 @@ const authentication = require('./authentication');
 const organisationUpdateTrigger = require('./triggers/organisation_update.js');
 // const opportunityUpdateTrigger = require('./triggers/opportunity_update.js');
 // const createOpportunityCreate = require('./creates/create_opportunity.js');
+
 //  creates: {
 //    [createOpportunityCreate.key]: createOpportunityCreate,
 //    [createOrganisationCreate.key]: createOrganisationCreate
@@ -16,7 +17,12 @@ const createOrganisationCreate = require('./creates/create_organisation.js');
 const findOrganisationSearch = require('./searches/find_organisation.js');
 
 module.exports = {
-  searches: { [findOrganisationSearch.key]: findOrganisationSearch },
+  creates: {
+    [createOrganisationCreate.key]: createOrganisationCreate
+  },
+  searches: { 
+    [findOrganisationSearch.key]: findOrganisationSearch 
+  },
   triggers: {
     [organisationUpdateTrigger.key]: organisationUpdateTrigger
   },
