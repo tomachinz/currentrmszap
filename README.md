@@ -14,10 +14,10 @@ Both are apps we use at The Rock Factory (Stage, Sound, Backline, Lighting Hire 
 ## Environment
 Be sure to update the .env file with:
 
-- SUBDOMAIN=YOUR_SUBDOMAIN
-- CLIENT_ID=YOUR_CLIENT_ID
-- CLIENT_SECRET=YOUR_CLIENT_SECRET
-- ACCESS_TOKEN=YOUR_ACCESS_TOKEN
-- REFRESH_TOKEN=YOUR_REFRESH_TOKEN
+- SUBDOMAIN=YOUR_SUBDOMAIN (set inside your current-rms.com account)
+- CLIENT_ID=YOUR_CLIENT_ID (set inside your current-rms.com account)
+- CLIENT_SECRET=YOUR_CLIENT_SECRET (set inside your current-rms.com account)
+- ACCESS_TOKEN=YOUR_ACCESS_TOKEN  (maybe not used - to be removed)
+- REFRESH_TOKEN=YOUR_REFRESH_TOKEN (maybe not used - to be removed)
 
 You can get those from https://YOUR_SUBDOMAIN.current-rms.com/oauth2/applications if you are a user of Current-RMS.
