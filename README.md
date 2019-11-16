@@ -26,3 +26,6 @@ Be sure to update the .env file with:
 - REFRESH_TOKEN=YOUR_REFRESH_TOKEN (maybe not used - to be removed)
 
 You can get those from https://YOUR_SUBDOMAIN.current-rms.com/oauth2/applications if you are a user of Current-RMS.
+
+## Docs
+https://api.current-rms.com/doc
