@@ -1,14 +1,19 @@
 # currentrmszap
 Current-RMS Zap connects this rental management web app talk to the Zapier code-free automation API
 
-# Current-RMS Zap
+# Current-RMS Zap 
+## THIS ZAP IS PRE-RELEASE ALPHA QUALITY
+This is the official repo of the converted CLI version of 1.1.2 of this Zap: 
+https://zapier.com/app/developer/app/29697/
 
-Current-RMS https://current-rms.com/ is a commercial Rental Management System great for company that rents out equipment.  
-Since Current-RMS didn't have a Zap at the time, I decided to make this one!
+By Tom Atkinson http://www.funk.co.nz/
+
+Current-RMS https://current-rms.com/ is a commercial Rental Management System great for company that rents out equipment. Since Current-RMS didn't have a Zap at the time, I decided to make this one!
 The "Zap" connects the rental CRM to the awesome Zapier code-free web API automation system.
 
-## Sponsor
-Both are apps we use at The Rock Factory (Stage, Sound, Backline, Lighting Hire in Auckland, NZ) https://therockfactory.net/ where I work on this integration for my awesome boss bless her. 
+## Sponsorred by The Rock Factory, NZ
+https://therockfactory.net/
+Thanks to our sponsor for open-sourcing this Zap. At The Rock Factory we do Stage, Sound, Backline, Lighting Hire in Auckland, in New Zealand. Zapier and Current-RMS are apps we use at The Rock Factory where I work on this integration for my awesome boss bless her. 
 
 
 ## Environment

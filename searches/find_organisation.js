@@ -20,7 +20,7 @@ const perform = (z, bundle) => {
 
     // You can do any parsing you need for results here before returning them
 
-    return results;
+    return results.channels;
   });
 };
 
