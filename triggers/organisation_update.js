@@ -445,7 +445,7 @@ module.exports = {
       'Make a change to any organisation in https://[YOUR_SUBDOMAIN].current-rms.com/members to trigger',
     hidden: false,
     important: false,
-    description: 'Triggers when an organisation is updated in Current RMS',
+    description: 'Triggers when an organisation is updated in Current RMS.',
     label: 'Organisation Update'
   },
   key: 'organisation_update'
