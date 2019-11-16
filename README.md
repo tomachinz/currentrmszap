@@ -29,3 +29,7 @@ You can get those from https://YOUR_SUBDOMAIN.current-rms.com/oauth2/application
 
 ## Docs
 https://api.current-rms.com/doc
+
+## oAuth Redirect
+You may need to add this as trusted URL in Current-RMS:
+https://zapier.com/dashboard/auth/oauth/return/App29697CLIAPI/
