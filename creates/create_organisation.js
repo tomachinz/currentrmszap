@@ -60,9 +60,9 @@ module.exports = {
         default: 'The Festival of Testing Zapier',
         required: true,
         list: false,
-        label: 'Company Name',
+        label: 'Organisation or Company Name',
         helpText:
-          'Can also be the name of the event, subject line of enquiry. It will become the subject line of a draft opportunity, and also the company name of an Organisation.',
+          'Used for the organisation name in Current-RMS, and will also appear in the subject line of the draft opportunity. If using WooCommerce, the suggested field is Billing Company.',
         key: 'company_name',
         type: 'string',
         altersDynamicFields: false
@@ -82,7 +82,7 @@ module.exports = {
         list: false,
         label: 'Primary Address',
         helpText:
-          "At a minimum, this can be the larger box labelled 'street' in Current RMS.",
+          "Used for the event or delivery address in Current-RMS, will appear in the 'street' field. Suggest using 'Shipping Address' if using WooCommerce.",
         key: 'primary_address',
         type: 'string',
         altersDynamicFields: false
