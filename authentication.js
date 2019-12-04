@@ -24,7 +24,7 @@ module.exports = {
       required: true,
       label: 'Current RMS Subdomain',
       helpText:
-        'You will also need to provide your Current RMS sub domain. This is the first part of the URL to access Current RMS. For example if your Current RMS URL is abcproductions.current-rms.com your sub domain would be abcproductions.\nhttps://api.current-rms.com/doc#header-api-keys',
+        'Your Current RMS sub-domain is the first part of the domain you use to login to Current RMS. [How to login to Current RMS](https://app.current-rms.com/forgotten_domain)',
       key: 'subdomain',
       type: 'string'
     },
@@ -34,7 +34,7 @@ module.exports = {
       required: true,
       label: 'Current Client ID',
       helpText:
-        'To use OAuth2 authentication you will first need to create a Custom Application to generate a Client ID and Secret. You can manage your Custom OAuth2 Applications from within the API Integration setup (System Setup > Integrations > API).\n\nSee https://api.current-rms.com/doc#header-oauth2\n\n',
+        'To use OAuth2 authentication you will first need to create a Custom Application to generate a Client ID and Secret. You can manage your Custom OAuth2 Applications from within the API Integration setup of Current RMS by clicking through System Setup > Integrations > API > Create Custom Application.  [How to login to Current RMS](https://app.current-rms.com/forgotten_domain) ',
       key: 'client_id',
       type: 'string'
     },
@@ -43,7 +43,7 @@ module.exports = {
       default: 'YOUR_CLIENT_SECRET',
       required: true,
       label: 'Current Client Secret',
-      helpText: 'Your Client Secret from Current RMS',
+      helpText: 'Your Client Secret from Current RMS, found alongside Client ID in system integrations. [How to login to Current RMS](https://app.current-rms.com/forgotten_domain)',
       key: 'client_secret',
       type: 'string'
     }
@@ -65,5 +65,5 @@ module.exports = {
     }
   },
   type: 'oauth2',
-  connectionLabel: '{{bundle.authData.subdomain}} Super Friendly connection'
+  connectionLabel: '{{bundle.authData.subdomain}} Extra-Friendly connection'
 };
