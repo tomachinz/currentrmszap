@@ -1,4 +1,4 @@
-const perform = (z, bundle) => {
+  const perform = (z, bundle) => {
   const options = {
     url: 'https://api.current-rms.com/api/v1/members',
     method: 'POST',
@@ -17,7 +17,7 @@ const perform = (z, bundle) => {
         description: bundle.inputData.description,
         phone_number: bundle.inputData.phone_number,
         primary_address: bundle.inputData.primary_address,
-        membership_type: 'Oranisation',
+        membership_type: 'Organisation',
         addresses: [
           {
             name: bundle.inputData.contact_name,
